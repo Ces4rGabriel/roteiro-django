@@ -9,6 +9,7 @@ class Mensagem(models.Model):
 
     class Meta:
         ordering = ["-criada_em"]
+        verbose_name_plural = "mensagens"
 
     def __str__(self):
         return self.titulo
