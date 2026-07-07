@@ -5,4 +5,5 @@ from . import views
 urlpatterns = [
     path("", views.index, name="index"),
     path("sobre/", views.sobre, name="sobre"),       # ← nova rota
+    path("nova/", views.nova_mensagem, name="nova_mensagem"),   # ← novo
 ]
